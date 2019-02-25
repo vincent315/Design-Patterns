@@ -10,7 +10,7 @@ public class Test {
 //		person1.setName("°Â°Â");
 //		System.out.println(person1);
 //		System.out.println(person2);
-		Person1 person1 = new Person1("µ°µ°",18,'ÄÐ');
+		Person1 person1 = new Person1("adad",18,'a');
 		List<String> list = new ArrayList<String>();
 		list.add("Ò»");
 		list.add("¶þ");

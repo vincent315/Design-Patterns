@@ -1,16 +1,624 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdc95b8e-5053-41c5-b507-b47d82afb6ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/DC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v1/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v1/BattercakeWithEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v1/BattercakeWithEggSausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v2/ABattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v2/AbstractDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v2/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v2/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v2/SausageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/decorator/v2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/proxy/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xzy/proxy/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/FruitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/FruitFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/NorthApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/NorthApple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/NorthBanana.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/NorthBanana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/NorthFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/NorthFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/SouthApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/SouthApple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/SouthBanana.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/SouthBanana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/SouthFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/SouthFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/AbstractFactory/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/AppleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/AppleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/BananaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/BananaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Factory/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Factory/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Prototpe/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Prototpe/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Prototpe/Person1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Prototpe/Person1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/Prototpe/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/Prototpe/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/FruitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/FruitFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/SimpleFactory/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/single/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/single/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/single/Person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/single/Person2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/single/Person3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/single/Person3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/single/Person4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/single/Person4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/xzy/single/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/xzy/single/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xzy/Prototpe/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xzy/Prototpe/Test.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-611314526">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="163" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/ABattercake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/AbstractDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/Battercake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/IOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/staticproxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/staticproxy/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/db/DataSourceContextHolder.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/db/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/proxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/Prototpe/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/ConcreteTarget.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Target.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/classadapter/ConcreteTarget(1).java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/AC220.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/DC5.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/PowerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/adapter/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v1/Battercake.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v1/BattercakeWithEgg.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v1/BattercakeWithEggSausage.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v1/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v2/ABattercake.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v2/AbstractDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/xzy/decorator/v2/Battercake.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shejimoshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shejimoshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shejimoshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shejimoshi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shejimoshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shejimoshi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shejimoshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shejimoshi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shejimoshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shejimoshi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shejimoshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shejimoshi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551030302244" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\javajava\shejimoshi\src\com\xzy" />
+      <recent name="G:\javajava\shejimoshi\src\com\xzy\proxy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xzy.proxy.Test" />
+      <module name="shejimoshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xzy.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdc95b8e-5053-41c5-b507-b47d82afb6ee" name="Default Changelist" comment="" />
+      <created>1550977112993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550977112993</updated>
+      <workItem from="1550977120100" duration="6105000" />
+      <workItem from="1551098677760" duration="255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6360000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38297874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40141845" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Translate" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38297874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40141845" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Translate" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/SimpleFactory/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/Prototpe/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/SimpleFactory/Banana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/IOrderService.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/Order.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/IOrderDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/OrderDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/dynamicproxy/OrderServiceDynamicProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/dynamicproxy/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/staticproxy/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/OrderServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/staticproxy/OrderServiceStaticProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/db/DataSourceContextHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/db/DynamicDataSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/Prototpe/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/proxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Target.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/ConcreteTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/objectadapter/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/classadapter/ConcreteTarget(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/classadapter/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/AC220.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/DC5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/PowerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/adapter/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/EggDecorator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/SausageDecorator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v1/Battercake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v1/BattercakeWithEgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v1/BattercakeWithEggSausage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v1/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/ABattercake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/AbstractDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xzy/decorator/v2/Battercake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
